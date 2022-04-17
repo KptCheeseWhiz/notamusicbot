@@ -1,0 +1,4 @@
+/node_modules
+/out
+/.env
+/docker-compose.override.yml

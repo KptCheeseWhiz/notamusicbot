@@ -1,0 +1,10 @@
+version: "3.0"
+
+services:
+  worker:
+    image: not_a_music_bot
+    build: .
+    restart: unless-stopped
+    environment:
+      - "NODE_ENV=production"
+      - "COMMAND_PREFIX=%"
