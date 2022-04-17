@@ -1,0 +1,6 @@
+version: "3.0"
+
+services:
+  worker:
+    environment:
+      - "DISCORD_TOKEN="
